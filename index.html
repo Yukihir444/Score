@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCORES</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container">
+        <button onclick="reloadPage()" class="btn-reset"> Re</button>
+        <div class="row">
+            <div id="left" class="box column">
+                <div id="scoreA">0</div>
+                <div class="row">
+                    <button class="btn btn-rem " onclick="changeScore('A',-1)">-</button>
+                    <button class="btn btn-add " onclick="changeScore('A',1)">+</button>
+                </div>
+                
+            </div>
+            <div id="right" class="box column">
+                <div id="scoreB">0</div>
+                <div class="row">
+
+                    <button class="btn btn-rem " onclick="changeScore('B',-1)">-</button>
+                    <button class="btn btn-add " onclick="changeScore('B',1)">+</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <script src="js.js"></script>
+</body>
+</html>
