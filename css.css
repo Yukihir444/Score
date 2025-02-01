@@ -6,6 +6,7 @@
 body{
     align-items: center;
     background-color: #232323;
+    touch-action: manipulation;
 }
 .container{
     /* border: white solid 2px; */
