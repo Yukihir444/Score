@@ -1,4 +1,4 @@
-let scores = { A: 18, B: 18 };
+let scores = { A: 0, B: 0 };
 let x;
 let round = 0;
 let h = 'HISTORY';
