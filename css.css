@@ -62,7 +62,7 @@ body{
     font-weight: bolder;
     padding: 10%;
 }
-.Green{
+.Serve{
     background-color:#ababab;
 }
 .touch {
@@ -74,16 +74,16 @@ body{
 }
 
 .history{
-	left: 50%; 
-    transform: translateX(-50%);
-    margin-top: 2% ;
     padding: 10px;
     color: white;
-
-    position: absolute;
+    display:flex;
     width: auto;
     height: 5%;
     text-align: center;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+    margin-top: 2% ;
 }
 
 .box#left{
@@ -94,3 +94,30 @@ body{
     border-right: white solid 1px;
 
 }
+.set {
+    color: chartreuse;
+    border: solid chartreuse 1px;
+}
+
+.drew{
+    background-color: crimson;
+    padding: 10px;
+    color: white;
+    width: auto;
+    text-align: center;
+    font-size:400%;
+
+    
+}
+.hidden{
+    display: none;
+}
+.info{
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+    margin-top: 2% ;
+    text-align: center;
+    
+}
+
