@@ -24,5 +24,3 @@ function renew() {
     history(scores, round);
     scores = {A:0, B:0}
 }
-
-console.log("H ->"+h);
