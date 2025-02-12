@@ -64,3 +64,13 @@ body{
 .Green{
     background-color:#ababab;
 }
+.touch {
+    position: absolute;
+    /* background-color: red; */
+    width: 40%;
+    height: 65%;
+    padding: auto ;
+    z-index: 98;
+
+    
+}

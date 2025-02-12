@@ -11,19 +11,21 @@
         <button onclick="reloadPage()" class="btn-reset"> Re</button>
         <div class="row">
             <div id="left" class="box column">
+                <div class="touch row" id="left" onclick="changeScore('A',1)"></div>
                 <div id="scoreA">0</div>
                 <div class="row">
                     <button class="btn btn-rem " onclick="changeScore('A',-1)">-</button>
-                    <button class="btn btn-add " onclick="changeScore('A',1)">+</button>
+                    <!-- <button class="btn btn-add " onclick="changeScore('A',1)">+</button> -->
                 </div>
                 
             </div>
             <div id="right" class="box column">
+                <div class="touch row" id="right" onclick="changeScore('B',1)"></div>
                 <div id="scoreB">0</div>
                 <div class="row">
 
                     <button class="btn btn-rem " onclick="changeScore('B',-1)">-</button>
-                    <button class="btn btn-add " onclick="changeScore('B',1)">+</button>
+                    <!-- <button class="btn btn-add " onclick="changeScore('B',1)">+</button> -->
                 </div>
                 
             </div>
