@@ -9,6 +9,8 @@ function changeScore(team, amount) {
     document.getElementById('score'+ x).setAttribute("class", "Green"); 
 }
 
-function reloadPage() {
-    location.reload();
+function renew() {
+    document.getElementById('scoreA').textContent = 0;
+    document.getElementById('scoreB').textContent = 0;
+    scores = {A:0, B:0}
 }
