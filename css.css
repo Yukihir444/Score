@@ -15,8 +15,10 @@ body{
     color: white;
 }
 .box{
-    border: white solid 1px;
     padding: 2rem;
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
+    
 }
 .column {
     float:inline-start;
@@ -40,11 +42,11 @@ body{
     color: white;
     font-weight: bolder;
     text-justify: center;
+    z-index: 98;
 }
 
 .btn-rem{
     background-color: red;
-    z-index: 98;
 }
 .btn-reset{
     position: absolute;
@@ -65,11 +67,30 @@ body{
 }
 .touch {
     position: absolute;
-    /* background-color: red; */
     width: 40%;
     height: 65%;
     padding: auto ;
     z-index: 90;
+}
 
-    
+.history{
+	left: 50%; 
+    transform: translateX(-50%);
+    margin-top: 2% ;
+    padding: 10px;
+    color: white;
+
+    position: absolute;
+    width: auto;
+    height: 5%;
+    text-align: center;
+}
+
+.box#left{
+    border-left: white solid 1px;
+}
+
+.box#right{
+    border-right: white solid 1px;
+
 }
