@@ -57,3 +57,18 @@ function drew(){
     badge.removeAttribute("class", "hidden")
     badge.setAttribute("class", "drew")
 }
+
+function checkOrientation() {
+    if (window.innerWidth < window.innerHeight) {
+        document.getElementById("rotate-warning").style.display = "flex";
+        document.getElementById("container").style.display = "none";
+    } else {
+        document.getElementById("rotate-warning").style.display = "none";
+        document.getElementById("container").style.display = "block";
+    }
+}
+
+checkOrientation();
+
+window.addEventListener("resize", checkOrientation);
+window.addEventListener("orientationchange", checkOrientation);
